@@ -1,4 +1,4 @@
-#addition of two no.
+
 a = float(input("enter first no."))
 b = float(input("entwe second no."))
 add = a + b
@@ -7,9 +7,7 @@ divide = a/b
 multiplication = a*b
 value = a//b
 power = a**b
-# c = a + b
-# print(f"sum is{c} ")
-# ValueError: invalid literal for int() with base 10: '5.5' - inbuild exception class (run time error)
+
 z = input("choose what operation you want to perfome 'add', 'subtract', 'divide', 'multiplication', 'value', 'power'")
 
 if z == "add":
